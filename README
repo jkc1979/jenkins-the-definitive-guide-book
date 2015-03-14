@@ -1,2 +1,8 @@
 This is a book about Jenkins.
 The source code of the book is written in docbook, and the build script is written using Maven. The book is generated in both HTML and PDF format: just run "mvn package" from this directory.
+
+Jenkins 관한 책이다.
+이 책의 코드는 docbook 으로 쓰여졌다.
+그리고 빌드 스크립트는 Maven 을 사용하였다.
+이 책은 HTML 과 PDF 포멧으로 generated 되었다.
+해당 디렉토리에서 "mvn package" 을실행하면 된다.
