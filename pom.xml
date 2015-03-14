@@ -43,9 +43,10 @@
   <modules>
     <module>hudsonbook-content</module>
     <module>hudsonbook-content-kr</module>
+    <!--
     <module>hudsonbook-content-fr</module>
     <module>hudsonbook-content-zh</module>
-    <module>hudsonbook-pdf</module>
+    <module>hudsonbook-pdf</module> -->
     <module>hudsonbook-html</module>
   </modules>
     <build>
@@ -99,6 +100,15 @@
     </build>
     <profiles>
       <profile>
+        <id>korean</id>
+        <properties>
+            <book.locale>kr</book.locale>
+            <book.title>L'Integration Continue avec Jenkins</book.title>
+            <book.subtitle>Un sous-titre super-engageant pour ce livre</book.subtitle>
+            <book.abstract>Un resume super-engageant pour ce livre</book.abstract>
+        </properties>
+      </profile>
+     <profile>
         <id>french</id>
         <properties>
             <book.locale>fr</book.locale>
