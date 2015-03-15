@@ -103,7 +103,7 @@
         <id>korean</id>
         <properties>
             <book.locale>kr</book.locale>
-            <book.title>L'Integration Continue avec Jenkins</book.title>
+            <book.title>Integration Continue with Jenkins</book.title>
             <book.subtitle>Un sous-titre super-engageant pour ce livre</book.subtitle>
             <book.abstract>Un resume super-engageant pour ce livre</book.abstract>
         </properties>

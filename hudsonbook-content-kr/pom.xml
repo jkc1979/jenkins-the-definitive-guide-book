@@ -5,9 +5,9 @@
 	<artifactId>hudsonbook</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
   </parent>
-  <artifactId>hudsonbook-content</artifactId>
+  <artifactId>hudsonbook-content-kr</artifactId>
   <packaging>jar</packaging>
-  <name>Continuous Integration with Hudson (Content)</name>
+  <name>Continuous Integration with Hudson (Korean Content)</name>
   <description>The docbook content for this book</description>
   <build>
     <sourceDirectory>src/main/resources</sourceDirectory>
@@ -50,10 +50,5 @@
   		<name>Flexmojos Repository</name>
   		<url>http://repository.sonatype.org/content/groups/flexgroup/</url>
   	</repository>
-    <repository>
-      <id>nuxeo</id>
-      <name>Nuxeo</name>
-      <url>https://maven-us.nuxeo.org/nexus/content/repositories/public/</url>
-    </repository>
   </repositories>
 </project>

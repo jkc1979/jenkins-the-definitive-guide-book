@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <chapter id="intro">
-  <title>Introducing Jenkins</title>
+  <title>Jenkins 소개</title>
   <sect1 id="I_sect11_d1e536">
-    <title>Introduction</title>
-    <para>Continuous Integration, also known as <indexterm class="startofrange" id="ch01-ci" significance="normal"><primary>CI (Continuous Integration)</primary></indexterm><indexterm id="I_indexterm1_d1e544" significance="normal"><primary>Continuous Integration</primary><see>CI</see></indexterm>CI, is a cornerstone of modern software development. In fact,
-    it's a real game changer. Introducing CI into
-    an organization radically alters the way teams think about the whole
-    development process. CI has the potential to enable and trigger a series
+    <title>소개</title>
+    <para>지속적인 통합(Continuous Integration), <indexterm class="startofrange" id="ch01-ci" significance="normal"><primary>CI (Continuous Integration)</primary></indexterm><indexterm id="I_indexterm1_d1e544" significance="normal"><primary>Continuous Integration</primary><see>CI</see></indexterm>CI 로 알려진, 현대 소프트웨어 개발의 토대가 된다. (=>is a cornerstone of modern software development.) 
+    In fact, it's a real game changer. 
+    Introducing CI into an organization radically alters the way teams think about the whole development process. 
+    CI has the potential to enable and trigger a series
     of incremental process improvements, going from a simple scheduled
-    automated build right through to continuous delivery into production. A
-    good CI infrastructure can streamline the development process,
+    automated build right through to continuous delivery into production. 
+    A good CI infrastructure can streamline the development process,
     help detect and fix bugs faster, provide a useful
     project dashboard for both developers and non-developers, and, ultimately,
     help teams deliver more real value to the end user. Every
@@ -22,9 +22,13 @@
     <para>Back in the days of waterfall projects and Gantt charts, before the
     introduction of CI practices, development team time and energy was
     regularly drained in the period leading up to a release by what was known
-    as the Integration Phase. During this phase, the code changes made by
+    as the Integration Phase. 
+    
+    During this phase, the code changes made by
     individual developers or small teams were brought together piecemeal and
-    forged into a working product. This was hard work, sometimes involving the
+    forged into a working product. 
+    
+    This was hard work, sometimes involving the
     integration of months of conflicting changes. It was very hard to
     anticipate the types of issues that would crop up, and even harder to fix
     them. Doing so could require reworking code that had been written weeks or

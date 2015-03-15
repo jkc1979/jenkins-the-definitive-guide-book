@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <chapter id="chapter-distributed-builds">
-  <title>Distributed Builds</title>
+  <title>분산 빌드</title>
   <sect1 id="sect-distributed-builds-introduction">
-    <title>Introduction</title>
+    <title>소개</title>
     <para><indexterm class="startofrange" id="ch11-dist1" significance="normal"><primary>distributed builds</primary></indexterm><indexterm class="startofrange" id="ch11-dist2" significance="normal"><primary>build jobs</primary><secondary>distributed across build servers</secondary></indexterm><indexterm id="I_indexterm11_d1e16025" significance="normal"><primary>build server</primary><secondary>multiple, running builds on</secondary><see>distributed builds</see></indexterm>Arguably one of the more powerful features of Jenkins is its
     ability to dispatch build jobs across a large number of machines. It's
     quite easy to set up a farm of build servers, either to share the load
@@ -32,8 +32,8 @@
     <para>Jenkins<indexterm class="startofrange" id="ch11-ms1" significance="normal"><primary>distributed builds</primary><secondary>master/slave architecture for</secondary></indexterm><indexterm class="startofrange" id="ch11-ms2" significance="normal"><primary>build jobs</primary><secondary>distributed across build servers</secondary><tertiary>master/slave architecture for</tertiary></indexterm><indexterm class="startofrange" id="ch11-ms3" significance="normal"><primary>master/slave architecture for distributed builds</primary></indexterm><indexterm class="startofrange" id="ch11-ms4" significance="normal"><primary>slave machines</primary><secondary sortas="distributed builds">for distributed
         builds</secondary></indexterm> uses a master/slave architecture to manage distributed
     builds. Your main <phrase role="keep-together">Jenkins</phrase> server
-    (the one you've been using so far) is the master. In a
-    nutshell, the master’s job is to handle scheduling build jobs, dispatching
+    (the one you've been using so far) is the master. 
+    In a nutshell, the master’s job is to handle scheduling build jobs, dispatching
     builds to the slaves for the actual execution, monitoring the slaves
     (possibly taking them online and offline as required), and recording and
     presenting the build results. Even in a distributed architecture, a master

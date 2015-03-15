@@ -116,6 +116,12 @@
   </properties>
   <profiles>
     <profile>
+      <id>korean</id>
+      <properties>
+        <hudsonbook-content>hudsonbook-content-kr</hudsonbook-content>
+      </properties>
+    </profile>
+    <profile>
       <id>french</id>
       <properties>
         <hudsonbook-content>hudsonbook-content-fr</hudsonbook-content>
