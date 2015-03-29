@@ -7,22 +7,18 @@
     <para>지속적인 통합(Continuous Integration), <indexterm class="startofrange" id="ch01-ci" significance="normal"><primary>CI (Continuous Integration)</primary></indexterm><indexterm id="I_indexterm1_d1e544" significance="normal"><primary>Continuous Integration</primary><see>CI</see></indexterm>CI 로 알려진, 현대 소프트웨어 개발의 토대가 된다. (=>is a cornerstone of modern software development.) 
     In fact, it's a real game changer. 
     Introducing CI into an organization radically alters the way teams think about the whole development process. 
-    CI has the potential to enable and trigger a series
-    of incremental process improvements, going from a simple scheduled
-    automated build right through to continuous delivery into production. 
+    CI has the potential to enable and trigger a series of incremental process improvements, 
+    going from a simple scheduled automated build right through to continuous delivery into production. 
     A good CI infrastructure can streamline the development process,
-    help detect and fix bugs faster, provide a useful
-    project dashboard for both developers and non-developers, and, ultimately,
-    help teams deliver more real value to the end user. Every
-    professional development team, no matter how small, should be practicing
-    CI.</para>
+    help detect and fix bugs faster, provide a useful project dashboard for both developers and non-developers, and, ultimately,
+    help teams deliver more real value to the end user. 
+    Every professional development team, no matter how small, should be practicing CI.</para>
   </sect1>
   <sect1 id="intro-sect-intro">
-    <title>Continuous Integration Fundamentals</title>
-    <para>Back in the days of waterfall projects and Gantt charts, before the
-    introduction of CI practices, development team time and energy was
-    regularly drained in the period leading up to a release by what was known
-    as the Integration Phase. 
+    <title>지속적인 통합 기본</title>
+    <para>CI 소개되기 전, waterfall projects 와 갠트차트(Gantt charts, http://terms.naver.com/entry.nhn?docId=509806&cid=42126&categoryId=42126)때,
+    개발팀의 리소스(시간과 에너지)는 통합단계인 릴리즈까지 이르기까지 정기적으로 소모되었다.
+    
     
     During this phase, the code changes made by
     individual developers or small teams were brought together piecemeal and
